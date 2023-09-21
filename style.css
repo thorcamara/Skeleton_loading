@@ -103,3 +103,13 @@ body {
   background-size: 200%;
   animation: loading 1s infinite reverse;
 }
+
+@keyframes loading {
+  0% {
+    background-position: -100% 0;
+  }
+
+  100% {
+    background-position: 100% 0;
+  }
+}
